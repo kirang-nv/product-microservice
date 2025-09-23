@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/eCommerceSolution.ProductsService/.vs
+/eCommerceSolution.ProductsService/BusinessLogicLayer/bin/Debug/net8.0
+/eCommerceSolution.ProductsService/BusinessLogicLayer/obj
+/eCommerceSolution.ProductsService/DataAccessLayer/bin/Debug/net8.0
+/eCommerceSolution.ProductsService/DataAccessLayer/obj
+/eCommerceSolution.ProductsService/ProductsMicroService.API/bin/Debug/net8.0
+/eCommerceSolution.ProductsService/ProductsMicroService.API/obj
