@@ -60,5 +60,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapProductAPIEndpoints();
+app.MapMotivationalStoryAPIEndpoints();
 
 app.Run();
