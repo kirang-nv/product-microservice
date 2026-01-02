@@ -41,8 +41,7 @@ public class MotivationalStoryService : IMotivationalStoryService
 
   public Task<MotivationalStoryResponse> GetRandomStory()
   {
-    Random random = new Random();
-    int index = random.Next(_stories.Count);
+    int index = Random.Shared.Next(_stories.Count);
     return Task.FromResult(_stories[index]);
   }
 }
