@@ -21,6 +21,7 @@ public static class DependencyInjection
           .WithScopedLifetime());
 
         services.AddScoped<IProductsService, eCommerce.BusinessLogicLayer.Services.ProductsService>();
+        services.AddScoped<IMotivationalStoryService, eCommerce.BusinessLogicLayer.Services.MotivationalStoryService>();
 
         return services;
     }
